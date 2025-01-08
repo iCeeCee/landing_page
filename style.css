@@ -4,12 +4,33 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content:space-between;
 }
 
 .hero, 
 .footer {
     background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .link.text ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+    list-style: none;
+}
+
+.header .link.text ul li a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 .header .logo.text {
